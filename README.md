@@ -8,3 +8,7 @@ https://kemirdin.github.io/Portfolio/Myfirst/index.html
 2.My face with Font-face 
 
 https://kemirdin.github.io/Portfolio/Font-face/index.html
+
+3.JapaneseFont 
+
+https://kemirdin.github.io/Portfolio/JapaneseFont/index.html
