@@ -20,3 +20,7 @@ https://kemirdin.github.io/Portfolio/csslayout/index.html
 5. Using Css Grid
 
 https://kemirdin.github.io/Portfolio/UsingCssGrid/index.html
+
+6.How to Build a Responsive Image Gallery with Flexbox,Css Flexbox with cool hover effects
+
+https://kemirdin.github.io/Portfolio/NiceFlexBox-Hover/index.html
