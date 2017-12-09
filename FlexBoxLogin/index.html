@@ -1,0 +1,40 @@
+<div class="flex-container">
+ <div class="flex-box half right-border login-form-box">
+   <form action="" method="post" class="flex-form">
+     <h4 class="form-title">Login</h4>
+     <div class="form-group">
+       <label>Email Address *</label>
+       <input type="email" class="form-control" placeholder="Email Address">
+     </div>
+      <div class="form-group">
+       <label>Password *</label>
+       <input type="password" class="form-control" placeholder="Password">
+     </div>
+     <div class="form-group">
+                        
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}>
+                                    Remember Me
+                                </label>
+                    
+                        </div>
+                    </div>
+     <div class="form-group">
+       <button type="submit" class="btn btn-primary btn-flat"><i class="fa fa-sign-in"></i> Login</button>
+       <a class="btn btn-link" href="{{ route('password.request') }}">
+                                Forgot Your Password?
+                            </a>
+     </div>
+   </form>
+ </div>
+  <div class="flex-box half">
+    
+    <a href="" class="social-sign fb"><i class="fa fa-facebook"></i> Login with Facebook</a>
+    <span class="or""> ( OR )</span>
+    <a href="" class="social-sign google"><i class="fa fa-google"></i> Login with Google</a>
+  </div>
+  
+  
+  
+</div>
