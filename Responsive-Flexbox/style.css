@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+h1 { margin: 0; }
+a { 
+  color: #333;
+  text-decoration: none;
+}
+
+div#logo-container {
+  width: 100px;
+}
+
+div#logo-container img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+header, nav {
+  display: -webkit-flex;
+  display: flex;
+}
+
+header {
+  background-color: #CCC;
+  padding: 20px;
+  justify-content: space-between;
+  flex: 1;
+}
+
+nav {
+  justify-content: flex-end;
+  align-self: center;
+}
+
+nav a {
+  width: 100px;
+  text-align: center;
+}
+nav a:hover {
+  color: #FF0000;
+}
+section#works {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+div.work {
+  display: inline-block;
+  width: 33.3333%;
+  height: 400px;
+  background-color: #666;
+  margin: 0;
+}
+
+div.work:nth-child(even) {
+  background-color: #333;
+}
+
+#flex-works {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-work {
+  position: relative;
+  flex-basis: 33.33333%;
+  height: 200px;
+  background-color: #FF0;
+  padding: 0;
+}
+
+.flex-work h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-right: -50%;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px)
+{
+  header {
+    flex-direction: column;
+  }
+  div#logo-container {
+    width: 100%;
+  }
+  div#logo-container img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header, nav {
+    flex-direction: column;
+  }
+  div.work {
+    width: 50%;
+  }
+  
+  div.flex-work {
+    flex-basis: 50%;
+  }
+}
