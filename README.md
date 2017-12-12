@@ -52,3 +52,7 @@ https://kemirdin.github.io/Portfolio/NavBarPage/index.html
 13.This is simple Logo with Bar
 
 https://kemirdin.github.io/Portfolio/LogoWhithBar/index.html
+
+14.Nav bar with Blockquote 
+
+https://kemirdin.github.io/Portfolio/NavBar1/index.html
