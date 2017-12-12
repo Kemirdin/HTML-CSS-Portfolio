@@ -1,0 +1,219 @@
+html,body{
+  width: 100%;
+  margin: 0px;
+}
+html{
+  background:#eeecec;
+  overflow-x: hidden;
+}
+#container{
+  z-index: 111;
+}
+
+.navT{
+  -webkit-transition: all 0.25s;
+  z-index: 111;
+  cursor: pointer;
+  width: 100%;
+  background:DarkSlateGray;
+  height: 65px;
+  left: 0;
+  top: 0;
+  position: fixed;
+
+  .icon{
+    -webkit-transition: all 0.25s;
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    left: 15px;
+    top: 30px;
+    background-color:white ;
+    
+    &:before, &:after{
+    -webkit-transition: all 0.25s;
+    width: 30px;
+    height: 1px;
+    left: 0;
+    background-color:white;
+    position: absolute;
+    content: '';
+    }
+    &:before{
+      top: -10px;
+    }
+    &:after{
+      top: 10px;
+    }
+  
+  }
+  &:hover{
+    background:Chocolate;
+    
+    .icon{
+      &:before{
+        top:-12px;
+      }
+      &:after{
+        top: 12px;
+      }
+    }
+  }
+  &.active{
+    .icon{
+      -webkit-transform: rotate(180deg);
+      background-color: transparent;
+      left: 10px;
+      
+    &:before, &:after{
+      top: 0;
+    }
+      &:before{
+        -webkit-transform: rotate(45deg);
+     
+      }
+      &:after{
+        -webkit-transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+#menu{
+  z-index: 111;
+  -webkit-transition: all 0.5s;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 65px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid transparent;
+  overflow: hidden;
+  & ul{
+    list-style: none;
+    padding: 0;
+    letter-spacing: 0.4em;
+  }
+  & li:first-child{
+    margin-top: 0;
+  }
+  & li{
+    -webkit-transition: all 0.2s;
+    margin-top: 20px;
+    padding: 5px 0;
+    color:white;
+  }
+  & a{
+    padding: 8px;
+    -webkit-transition: all 0.25s;
+    cursor: pointer;
+  }
+  & a:hover{
+    letter-spacing: 0.5em;
+    text-decoration: underline;
+  }
+  &.open{
+    height: 270px;
+    width: 100%;
+    background: DeepSkyBlue;
+    border-bottom: 1px solid black;
+  }
+}
+.space{
+  letter-spacing: 0;
+}
+
+.content{
+  background-image:url("https://wallpaperscraft.com/image/decline_road_country_signature_evening_twilight_wood_grass_vegetation_summer_field_54050_1680x1050.jpg");
+ 
+  width: 100%;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  -webkit-transition: top 0.5s;
+  position: absolute;
+  top: 65px;
+  margin: 0 auto;
+  h1{
+    color:white;
+    font-size: 3em;
+    text-transform: uppercase; 
+    margin-top: 85px;
+    margin-left: 10px;
+  }
+  h2{
+    color:white;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: -25px;
+    margin-left: 10px;
+    font-weight: 400;
+    letter-spacing: 0.7em;
+  }
+  &.shift{
+    top: 335px;
+  }
+}
+
+p{
+  color:azure;
+  max-width: 600px;
+  font-size: 0.75em;
+  line-height: 1.75em;
+  text-align: left;
+  margin-left: 10px;
+}
+
+#second{
+  left: 0;
+  width: 100%;
+  background-image:url("https://www.desktopbackground.org/download/1680x1050/2011/07/29/241880_summer-nights-hd-wallpapers_2560x1600_h.jpg");
+  height: 600px;
+  margin-top: 200px;
+  text-align: center;
+  & h1, & h2{
+    margin-right:20px;
+  }
+  h1{
+    padding-top: 40px;
+  }
+  p{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+#third{
+  background-image:url("https://www.walldevil.com/wallpapers/a85/wallpaper-mac-desktop-matrix-abstract.jpg");
+  width: 100%;
+  height: 300px;
+  padding-top: 50px;
+  & h2{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+  & h5{
+    color: white;
+     font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 0.25em;
+    text-align: center;
+  }
+}
+
+
+#bar{
+  width: 40%;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px dashed white;
+}
