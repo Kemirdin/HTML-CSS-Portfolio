@@ -1,13 +1,8 @@
 body {
-  
-  background-image: url("http://hdwallpapersbackgrounds.us/backgrounds-image/wallpapers-hd-3s-1680x1050/hd-wallpapers-10302ewvd6-3s-1680x1050.jpg");
+  background-color: limegreen;
   margin: 0 auto;
 }
-blockquote{
-  font-size:40px;
-  color:azure;
-  
-}
+
 #wrapper {
       margin: 0 auto;
       width: 100%;
@@ -33,7 +28,7 @@ nav ul li {
   margin-right: .01em;
   position: relative;
   padding: 1em 3em;
-  background: DarkCyan;
+  background: green;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
@@ -54,7 +49,7 @@ nav li a {
 }
 
 nav ul li:hover {
-  background-color: CornflowerBlue;
+  background-color: darkgreen;
 }
 
 nav ul li ul {
@@ -76,13 +71,13 @@ nav ul li ul {
   -transition: opacity 0.2s;
 }
 nav ul li ul li { 
-  background-color: CornflowerBlue; 
+  background-color: green; 
   display: block; 
   color: #fff;
   text-shadow: 0 1px 0 #000;
 }
 nav ul li ul li:hover { 
-  background-color: CornflowerBlue;
+  background-color: darkgreen;
 }
 
 nav ul li:hover ul {
