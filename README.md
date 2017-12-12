@@ -48,3 +48,7 @@ https://kemirdin.github.io/Portfolio/Sign-Up-Login-Form/index.html
 12. I was tried to make cool bar but it couldn't shouw , 
 
 https://kemirdin.github.io/Portfolio/NavBarPage/index.html
+
+13.This is simple Logo with Bar
+
+https://kemirdin.github.io/Portfolio/LogoWhithBar/index.html
