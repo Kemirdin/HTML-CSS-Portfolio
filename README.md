@@ -53,6 +53,10 @@ https://kemirdin.github.io/Portfolio/NavBarPage/index.html
 
 https://kemirdin.github.io/Portfolio/LogoWhithBar/index.html
 
-14.Nav bar with Blockquote 
+14.Nav bar with Blockquote 1
 
 https://kemirdin.github.io/Portfolio/NavBar1/index.html
+
+15. Nav bar with Blockquote 2
+
+https://kemirdin.github.io/Portfolio/NavBar2/index.html
