@@ -37,26 +37,26 @@ body {
 	transition:         all 0.2s ease;
 }
 
-.wrapper div#javascript span{
+.wrapper #javascript span{
   background-color:cyan;
 }
-.wrapper div#jquery span{
+.wrapper #jquery span{
   background-color: lawngreen;
   background-position:-20px -75px;
 }
 
-.wrapper div#html span{
+.wrapper #html span{
   background-color:dodgerblue;
 }
 
-.wrapper div#css span{
+.wrapper #css span{
   background-color:fuchsia;
 }
-.wrapper div#bootstrap span{
+.wrapper #bootstrap span{
   background-color:Brown;
 }
 
-.wrapper div#php span{
+.wrapper #php span{
   background-color:indigo;
 }
 
@@ -68,7 +68,7 @@ body {
   transform: translateX(10px);
 }
 
-.wrapper div#jquery span:hover{
+.wrapper #jquery span:hover{
   background-position:0px -75px;  
 
 }
