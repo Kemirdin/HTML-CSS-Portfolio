@@ -14,13 +14,13 @@ body {
 .wrapper{
   padding:0px 15px;
 }
-.wrapper div{
+.wrapper {
   margin-top:-20px;
 }
-.wrapper div:first-child{
+.wrapper:first-child{
   margin-top:0;
 }
-.wrapper div span{  
+.wrapper span{  
   background-repeat: no-repeat;
   background-position: -15px center;
 
@@ -37,30 +37,29 @@ body {
 	transition:         all 0.2s ease;
 }
 
-.wrapper #javascript span{
+#javascript span{
   background-color:cyan;
 }
-.wrapper #jquery span{
+#jquery span{
   background-color: lawngreen;
   background-position:-20px -75px;
 }
 
-.wrapper #html span{
+#html span{
   background-color:dodgerblue;
 }
 
-.wrapper #css span{
+#css span{
   background-color:fuchsia;
 }
-.wrapper #bootstrap span{
+#bootstrap span{
   background-color:Brown;
 }
 
-.wrapper #php span{
+#php span{
   background-color:indigo;
 }
-
-.wrapper div span:hover{
+span:hover{
   cursor:pointer;
   background-position:0px center;  
   -ms-transform: translateX(10px);
@@ -68,8 +67,7 @@ body {
   transform: translateX(10px);
 }
 
-.wrapper #jquery span:hover{
+ #jquery span:hover{
   background-position:0px -75px;  
 
 }
-
