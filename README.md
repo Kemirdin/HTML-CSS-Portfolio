@@ -60,3 +60,8 @@ https://kemirdin.github.io/Portfolio/NavBar1/index.html
 15. Nav bar with Blockquote 2
 
 https://kemirdin.github.io/Portfolio/NavBar2/index.html
+
+
+16. This is about Clip Menu 
+
+https://kemirdin.github.io/Portfolio/ClipMenu/index.html
