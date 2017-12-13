@@ -1,1 +1,75 @@
 
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,900');
+
+body {
+  background-color: #32333C;
+  background-image:url("http://www.reinegger.net/images/webdesign-blog.jpg");
+  background-position:auto;
+  background-size: 100% 150%;
+   background-repeat: no-repeat;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight:900;
+}
+.wrapper{
+  padding:0px 15px;
+}
+.wrapper div{
+  margin-top:-20px;
+}
+.wrapper div:first-child{
+  margin-top:0;
+}
+.wrapper div span{  
+  background-repeat: no-repeat;
+  background-position: -15px center;
+
+  display:block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 72px;
+  text-transform:uppercase;
+  letter-spacing:-4px;
+  -webkit-transition: all 0.2s ease;
+	-moz-transition:    all 0.2s ease;
+	-o-transition:      all 0.2s ease;
+	-ms-transition:     all 0.2s ease;
+	transition:         all 0.2s ease;
+}
+
+.wrapper div#javascript span{
+  background-color:cyan;
+}
+.wrapper div#jquery span{
+  background-color: lawngreen;
+  background-position:-20px -75px;
+}
+
+.wrapper div#html span{
+  background-color:dodgerblue;
+}
+
+.wrapper div#css span{
+  background-color:fuchsia;
+}
+.wrapper div#bootstrap span{
+  background-color:Brown;
+}
+
+.wrapper div#php span{
+  background-color:indigo;
+}
+
+.wrapper div span:hover{
+  cursor:pointer;
+  background-position:0px center;  
+  -ms-transform: translateX(10px);
+  -webkit-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+.wrapper div#jquery span:hover{
+  background-position:0px -75px;  
+
+}
+
