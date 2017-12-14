@@ -69,3 +69,7 @@ https://kemirdin.github.io/Portfolio/ClipMenu/index.html
 17. CSS Background Color Change on Hover
 
 https://kemirdin.github.io/Portfolio/backgroundColorHover/index.html
+
+18. CSS Grid Page Layout Demo
+
+https://kemirdin.github.io/Portfolio/CssGridPage/index.html
