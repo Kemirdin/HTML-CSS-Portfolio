@@ -1,1 +1,36 @@
 
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(300px, 50%) 3fr;
+  grid-gap: 40px;
+  grid-template-areas: "header header" "sidebar content" "footer footer";
+}
+
+header {
+  background-image:url("http://eskipaper.com/images/colorful-background-8.jpg");
+  color:azure;
+  text-align:center;
+  grid-area: header;
+  padding: 30px;
+}
+
+main {
+  grid-area: content;
+}
+
+aside {
+  background-image:url("https://cdn.dribbble.com/users/5976/screenshots/300454/nocturn_ro-1-website_background_detail.jpg");
+  color:azure;
+  
+  grid-area: sidebar;
+  padding: 30px;
+}
+
+footer {
+  background-image:url("https://www.creativesnapbacks.com/wp-content/uploads/2014/12/footer-background-01.jpg");
+  text-align:center;
+  color: white;
+  grid-area: footer;
+  padding: 30px;
+}
