@@ -85,3 +85,7 @@ https://kemirdin.github.io/Portfolio/CSSHoverAni/index.html
 21. Text animation
 
 https://kemirdin.github.io/Portfolio/Textanimation/index.html
+
+22. I made a simple page but couldn't show 
+
+https://kemirdin.github.io/Portfolio/SimplePage/index.html
