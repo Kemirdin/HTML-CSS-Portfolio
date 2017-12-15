@@ -81,3 +81,7 @@ https://kemirdin.github.io/Portfolio/CssGridPage/index.html
 20. CSS Hover Animation
 
 https://kemirdin.github.io/Portfolio/CSSHoverAni/index.html
+
+21. Text animation
+
+https://kemirdin.github.io/Portfolio/Textanimation/index.html
