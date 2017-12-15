@@ -1,4 +1,3 @@
-
 body {
   width: 100%;
   height: 100%;
@@ -18,30 +17,30 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 35px;
   line-height: 40px;
-  color: #ecf0f1;
+  color: SpringGreen;
   
- .content__container {
+ .content-container {
     font-weight: 600;
     overflow: hidden;
     height: 40px;
     padding: 0 40px;
 
-  .content__container:before {
+    .content-container:before {
       content: '[';
       left: 0;
     }
 
-   .content__container:after {
+    .content-container:after{
       content: ']';
       position: absolute;
       right: 0;
     }
 
-   .content__container:after, .content__container:before {
+  .content-container:after, .content-container:before {
       position: absolute;
       top: 0;
       
-      color: #16a085;
+     color: #16a085;
       font-size: 42px;
       line-height: 40px;
       
@@ -53,13 +52,13 @@ body {
       animation-iteration-count: infinite;
     }
 
-   .content__container__text {
+   .content-container-text {
       display: inline;
       float: left;
       margin: 0;
     }
 
-  .content__container__text__list {
+   .content-container-list {
       margin-top: 0;
       padding-left: 110px;
       text-align: left;
@@ -72,7 +71,7 @@ body {
       animation-duration: 10s;
       animation-iteration-count: infinite;
 
-      .content__container__text__item {
+     .content-container-item {
         line-height:40px;
         margin:0;
       }
