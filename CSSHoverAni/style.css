@@ -1,1 +1,67 @@
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,100,300);
+
+*      {  margin:0; padding:0;}
+
+body   {  background:#556270;
+background-image:url("https://i.pinimg.com/originals/ed/55/e2/ed55e2965f8064042d38f92bb7505d17.jpg");
+   background-repeat: no-repeat;
+with:100%;
+  
+}
+
+h1     {  text-align:center;
+          margin:75px 0 0 0;
+          font:96px 'Roboto';
+          font-weight:900;
+          color:SpringGreen;
+          text-transform:uppercase;
+          line-height:100px;
+          text-shadow:
+              1px 1px 0 #24374c,
+              2px 2px 0 #24374c,  
+              3px 3px 0 #24374c,
+              5px 4px 0 #24374c,
+              6px 6px 0 #24374c,
+              7px 7px 0 #24374c,
+              8px 8px 0 #24374c,
+              9px 9px 0 #24374c,
+              10px 10px 0 #24374c;
+}
+
+h1:hover {
+  -webkit-animation: header .25s 16 ease-in-out;
+  -webkit-animation-iteration-count:3;
+  -moz-animation: header .25s 16 ease-in-out;
+  -moz-animation-iteration-count:3;
+
+  
+}
+
+  @-webkit-keyframes header {
+  0%   {letter-spacing:2px; color:rgba(236,208,120,1);} 
+  10%  {letter-spacing:4px; color:rgba(236,208,120,.9);}
+  20%  {letter-spacing:6px; color:rgba(236,208,120,.8);} 
+  30%  {letter-spacing:8px; color:rgba(236,208,120,.7);} 
+  40%  {letter-spacing:10px; color:rgba(236,208,120,.6);}  
+  50%  {letter-spacing:12px; color:rgba(236,208,120,.5);}  
+  60%  {letter-spacing:10px; color:rgba(236,208,120,.6);}
+  70%  {letter-spacing:8px; color:rgba(236,208,120,.7);}
+  80%  {letter-spacing:6px; color:rgba(236,208,120,.8);}
+  90%  {letter-spacing:4px; color:rgba(236,208,120,.9);}
+  100% {letter-spacing:2px; color:rgba(236,208,120,1);}
+}
+
+@-moz-keyframes header {
+  0%   {letter-spacing:2px; color:rgba(236,208,120,1);} 
+  10%  {letter-spacing:4px; color:rgba(236,208,120,.9);}
+  20%  {letter-spacing:6px; color:rgba(236,208,120,.8);} 
+  30%  {letter-spacing:8px; color:rgba(236,208,120,.7);} 
+  40%  {letter-spacing:10px; color:rgba(236,208,120,.6);}  
+  50%  {letter-spacing:12px; color:rgba(236,208,120,.5);}  
+  60%  {letter-spacing:10px; color:rgba(236,208,120,.6);}
+  70%  {letter-spacing:8px; color:rgba(236,208,120,.7);}
+  80%  {letter-spacing:6px; color:rgba(236,208,120,.8);}
+  90%  {letter-spacing:4px; color:rgba(236,208,120,.9);}
+  100% {letter-spacing:2px; color:rgba(236,208,120,1);}
+}
