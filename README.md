@@ -89,3 +89,7 @@ https://kemirdin.github.io/Portfolio/Textanimation/index.html
 22. I made a simple page but couldn't show 
 
 https://kemirdin.github.io/Portfolio/SimplePage/index.html
+
+23.
+
+https://kemirdin.github.io/Portfolio/CSSTextFX/index.html
