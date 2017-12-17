@@ -94,6 +94,10 @@ https://kemirdin.github.io/Portfolio/SimplePage/index.html
 
 https://kemirdin.github.io/Portfolio/CSSTextFX/index.html
 
-24. CSS Grid  Exemple
+24. CSS Grid  Exemple 1
 
 https://kemirdin.github.io/Portfolio/GSSGridExemple/index.html
+
+25. CSS grid exemple 2
+
+https://kemirdin.github.io/Portfolio/CssGridExemple2/index.html
