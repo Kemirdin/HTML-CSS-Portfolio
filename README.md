@@ -101,3 +101,7 @@ https://kemirdin.github.io/Portfolio/GSSGridExemple/index.html
 25. CSS grid exemple 2
 
 https://kemirdin.github.io/Portfolio/CssGridExemple2/index.html
+
+26. Infinitely looping elegant fading animation (1 line of CSS)
+
+https://kemirdin.github.io/Portfolio/CssFadingAni/index.html
