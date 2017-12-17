@@ -1,1 +1,19 @@
+@import "compass/css3";
 
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+body{
+  background-image:url("https://media.giphy.com/media/Ta6AfMa6Sivks/giphy.gif");
+}
+p {
+  position: relative;
+  top: 100px;
+  
+  font: italic bold 5em/1 Bodoni, serif;
+  color: Cyan;
+  text-align: center;
+  
+  animation: fadeIn 1s infinite alternate;
+}
