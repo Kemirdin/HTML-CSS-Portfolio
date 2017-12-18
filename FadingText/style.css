@@ -27,7 +27,7 @@ p {
 
 /* Pen styling */
 .wrapper {
-  background: #222 url(https://regmedia.co.uk/2017/03/07/shutterstock_cyber_spy_hacker.jpg?x=1200&y=794) 50% 50%/cover;
+  background: #222 url("https://regmedia.co.uk/2017/03/07/shutterstock_cyber_spy_hacker.jpg?x=1200&y=794") 50% 50%/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
