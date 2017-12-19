@@ -2,19 +2,9 @@
 @use postcss-cssnext;
 @custom-selector :--opened-menu #DrawerMenuTrigger:checked;
 @custom-media --small (min-width: 30em);
-body{
-   background:url("https://regmedia.co.uk/2017/03/07/shutterstock_cyber_spy_hacker.jpg?x=1200&y=794");
-}
+
 
 .OpenMenuButton {
- 
-  
-  -webkit-animation: floating-text 2s ease alternate infinite;
-     -moz-animation: floating-text 2s ease alternate infinite;
-      -ms-animation: floating-text 2s ease alternate infinite;
-       -o-animation: floating-text 2s ease alternate infinite;
-          animation: floating-text 2s ease alternate infinite;
- color:SpringGreen;
   cursor: pointer;
   font-size: 1.5rem;
   font-weight: 900;
@@ -105,4 +95,4 @@ body{
   font-size: 2rem;
   margin-top: 0;
 }
-
+ 
