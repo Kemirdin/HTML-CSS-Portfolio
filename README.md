@@ -109,3 +109,7 @@ https://kemirdin.github.io/Portfolio/CssFadingAni/index.html
 27.Fading text with CSS blend modes
 
 https://kemirdin.github.io/Portfolio/FadingText/index.html
+
+28.Glitchy Text with Full stack web developer
+
+https://kemirdin.github.io/Portfolio/GlitchyText/index.html
