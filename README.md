@@ -113,3 +113,7 @@ https://kemirdin.github.io/Portfolio/FadingText/index.html
 28.Glitchy Text with Full stack web developer
 
 https://kemirdin.github.io/Portfolio/GlitchyText/index.html
+
+29.Image  Comparison  ( it is still not working )
+
+https://kemirdin.github.io/Portfolio/ImageComparison/index.html
