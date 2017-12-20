@@ -117,3 +117,7 @@ https://kemirdin.github.io/Portfolio/GlitchyText/index.html
 29.Image  Comparison  ( it is still not working )
 
 https://kemirdin.github.io/Portfolio/ImageComparison/index.html
+
+30.Material Navigation Pure CSS
+
+https://kemirdin.github.io/Portfolio/MaterialNavigationPure/index.html
