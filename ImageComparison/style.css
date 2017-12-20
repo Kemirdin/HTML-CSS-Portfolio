@@ -1,1 +1,43 @@
 
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background: #111;
+}
+
+.image {
+  --width: 794px;
+  --height: 446px;
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+  overflow: hidden;
+}
+.image__img {
+  position: absolute;
+  height: 100%;
+  background: url("https://www.planwallpaper.com/static/images/hd-desktop-wallpaper-22.jpg");
+  background-size: var(--width) var(--height);
+}
+.image__img:first-child {
+  left: 0;
+  width: 100%;
+  background-position: center left;
+}
+.image__img:last-child {
+  right: 0;
+  width: calc(100% - var(--x, 50%));
+  background-position: center right;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-box-shadow: inset 2px 0 0 #111, -2px 0 0 #111;
+          box-shadow: inset 2px 0 0 #111, -2px 0 0 #111;
+}
