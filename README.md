@@ -125,3 +125,7 @@ https://kemirdin.github.io/HTML-CSS-Portfolio/MaterialNavigationPure/index.html
 31.Merry Christmas Multilingual Scroll 
 
 https://kemirdin.github.io/HTML-CSS-Portfolio/MultilingualScroll/index.html
+
+32.Merry Christmas Multilingual Scroll with snow
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/SnowMerry/index.html
