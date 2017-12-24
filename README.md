@@ -129,3 +129,7 @@ https://kemirdin.github.io/HTML-CSS-Portfolio/MultilingualScroll/index.html
 32.Merry Christmas Multilingual Scroll with snow
 
 https://kemirdin.github.io/HTML-CSS-Portfolio/SnowMerry/index.html
+
+33.Happt New Year
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/HappyNew/index.html
