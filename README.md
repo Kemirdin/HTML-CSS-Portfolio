@@ -121,3 +121,7 @@ https://kemirdin.github.io/HTML-CSS-Portfolio/ImageComparison/index.html
 30.Material Navigation Pure CSS
 
 https://kemirdin.github.io/HTML-CSS-Portfolio/MaterialNavigationPure/index.html
+
+31.Merry Christmas Multilingual Scroll 
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/MultilingualScroll/index.html
