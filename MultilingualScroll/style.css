@@ -1,1 +1,68 @@
 
+body {
+  background-color: #cc1100;
+  /*background-image: radial-gradient(100% 67% at 50% 50%, #cc1100, #400000);*/
+    background-image: url(http://all4desktop.com/data_images/1280%20x%20800/4227335-waiting-for-the-xmas.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.txt {
+  color: #fff;
+  font-family: "Oleo Script", sans-serif;
+  width: 100%;
+  height: 10vw;
+  overflow: hidden;
+  position: relative;
+  text-shadow: 0.5vw 0.5vw 0px #000;
+}
+
+p {
+  font-size: 7.2vw;
+  line-height: 10vw;
+  position: absolute;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  transform: translateY(10vw);
+  animation: slideUp 14s 0s linear infinite;
+}
+p.reset-anim {
+  animation: none;
+}
+p:nth-of-type(1) {
+  animation-delay: 0s;
+}
+p:nth-of-type(2) {
+  animation-delay: 2s;
+}
+p:nth-of-type(3) {
+  animation-delay: 4s;
+}
+p:nth-of-type(4) {
+  animation-delay: 6s;
+}
+p:nth-of-type(5) {
+  animation-delay: 8s;
+}
+p:nth-of-type(6) {
+  animation-delay: 10s;
+}
+p:nth-of-type(7) {
+  animation-delay: 12s;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  7.1428571429%, 14.2857142857% {
+    transform: translateY(0);
+  }
+  21.4285714286%, to {
+    transform: translateY(-100%);
+  }
+}
