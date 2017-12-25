@@ -130,6 +130,10 @@ https://kemirdin.github.io/HTML-CSS-Portfolio/MultilingualScroll/index.html
 
 https://kemirdin.github.io/HTML-CSS-Portfolio/SnowMerry/index.html
 
-33.Happt New Year
+33.Happy New Year with Multilingual Scroll
 
 https://kemirdin.github.io/HTML-CSS-Portfolio/HappyNew/index.html
+
+34.Happy New Year with Article Tiles
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/HappyNewYear/index.html
