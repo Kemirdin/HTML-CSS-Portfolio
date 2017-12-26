@@ -137,3 +137,7 @@ https://kemirdin.github.io/HTML-CSS-Portfolio/HappyNew/index.html
 34.Happy New Year with Article Tiles
 
 https://kemirdin.github.io/HTML-CSS-Portfolio/HappyNewYear/index.html
+
+34 . Bhagat Singh Biography  Build a Tribute Page
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/BSinghBiography/index.html
