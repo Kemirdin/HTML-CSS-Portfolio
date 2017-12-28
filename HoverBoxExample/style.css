@@ -1,3 +1,10 @@
+body{
+  background-image:url("https://www.planwallpaper.com/static/images/6813800-toy-car-wallpaper-hd.jpg");
+  with:100%;
+}
+p{
+  color:azure;
+}
 
 #row {
   transition: 1s transform;
@@ -6,7 +13,7 @@
   width: 80px;
   height: 80px;
   border: 1px solid blue;
-  background-color: skyblue;
+  background-color: DarkCyan;
   padding: 5px;
   box-sizing: border-box;
   transition: 1s transform;
