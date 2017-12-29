@@ -1,1 +1,18 @@
 
+html {
+  height: 150vh;
+  background: #39ca74;
+}
+.bottom {
+  background: #39ca74;
+  position: fixed;
+  height: 50vh;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.top {
+  padding-top: 50vh;
+  height: 50vh;
+  background: #3a99d8;
+}
