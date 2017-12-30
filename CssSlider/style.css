@@ -1,1 +1,64 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    height: 100%;
+    position: relative;
+    
+    animation: 20s slide infinite;
+}
+
+.word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: #fff;
+    font-size: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: gold;
+}
+
+@keyframes slide {
+    0% {
+        top: 0;
+    }
+    
+    15% {
+        top: -100%;
+    }
+    
+    30% {
+        top: -200%;
+    }
+    
+    45% {
+        top: -300%;
+    }
+    
+    60% {
+        top: -400%;
+    }
+}
