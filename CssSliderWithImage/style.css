@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    height: 100%;
+    position: relative;
+    
+    animation: 20s slide infinite;
+}
+
+.word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: #fff;
+    font-size: 200px;
+}
+
+.img1 {
+    background-image:url("https://www.planwallpaper.com/static/images/wallpaper-hd-nature-17.jpg");
+}
+.img2{background-image:url("https://www.planwallpaper.com/static/images/hd-desktop-wallpaper-22.jpg");
+}
+.img3{
+    background-image:url("https://www.planwallpaper.com/static/images/hd-android-wallpapers-9.jpg")
+}
+.img4{
+    background-image:url("https://www.planwallpaper.com/static/images/6813800-toy-car-wallpaper-hd.jpg")
+}
+.img5{
+    background-image:url("https://www.planwallpaper.com/static/images/wallpaper-full-hd-12.jpg");
+}
+
+
+
+@keyframes slide {
+    0% {
+        top: 0;
+    }
+    
+    15% {
+        top: -100%;
+    }
+    
+    30% {
+        top: -200%;
+    }
+    
+    45% {
+        top: -300%;
+    }
+    
+    60% {
+        top: -400%;
+    }
+}
