@@ -1,1 +1,76 @@
 
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  text-align: center;
+  width: 100%;
+  margin: 0px auto;
+  color: #fff;
+  font-size: 80px;
+  letter-spacing: 5px;
+  top: 50%;
+  position: absolute;
+  margin-top: -40px;
+  text-shadow: -1px -1px 0px #2196f3, 3px 3px 0px #2196f3, 6px 6px 0px #0d47a1;
+}
+body{
+   font-family: 'Baloo Tamma', cursive;
+  background-image:url("https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg");
+}
+
+
+
+.social-media-buttons{
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.social-media-button{
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  position: relative;
+  margin: 1rem .5rem;
+  cursor: pointer;
+  transition: border-radius .25s, transform .5s, border-color 1s;
+}
+
+.social-media-button i{
+  color: azure;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: color .5s;
+}
+
+.social-media-button:hover{
+  border-radius: 10%;
+  border-color: #222;
+  transform: rotate(360deg);
+}
+
+.social-media-button.facebook:hover i{
+  color: #3b5998;
+}
+
+.social-media-button.free-code-camp:hover i{
+  color: #006400;
+}
+
+.social-media-button.github:hover i{
+  color: #6e5494;
+}
+
+.social-media-button.codepen:hover i{
+  color: #ff3c41;
+}
