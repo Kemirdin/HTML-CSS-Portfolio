@@ -1,1 +1,67 @@
+/*Flat color*/
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: LightSeaGreen;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.CodeEditor {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #2D354D;
+  font-family: "Source Code Pro";
+}
+.CodeEditor .LineNumber {
+  width: 35px;
+  height: 100%;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.CodeEditor .LineNumber li {
+  color: white;
+  min-height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CodeEditor .Code {
+  width: calc(100% - 35px);
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  outline: none;
+}
+.CodeEditor .Code li {
+  color: white;
+  min-height: 23px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.CodeEditor .Code li .VarName {
+  color: #43ACE3;
+}
+.CodeEditor .Code li .className {
+  color: #EE7D15;
+}
+.CodeEditor .Code li .string, .CodeEditor .Code li .comment {
+  color: #00C873;
+}
+.CodeEditor .Code li .DataType, .CodeEditor .Code li .KeyWord {
+  color: #F34D35;
+}
 
