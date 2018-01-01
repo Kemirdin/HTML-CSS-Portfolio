@@ -1,1 +1,83 @@
 
+body {
+    font-size: 16px;
+    background: #44ACCF;
+}
+
+.container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    
+    background: #fff;
+    
+    overflow: hidden;
+}
+
+#nav {
+    background: #B7D84B;
+    height: 3.5em;
+}
+
+#nav a {
+    color: #fff;
+    font-size: 0.75em;
+    line-height: 3.125em;
+    text-decoration: none;
+    background: #B7D84B;
+    float: left;
+    padding: 0.8em;
+    border-right: 1px solid #91AB3B;
+}
+
+#nav a:hover {
+    background: #91AB3B;
+    cursor: pointer;
+}
+
+div.main {
+    padding: 0.75em 1.5em;
+    clear: left;
+    
+    padding-right: 220px;
+    padding-bottom: 36px;
+}
+
+div.main p {
+    font-size: 0.75em;
+}
+
+aside {
+    border-top: 5px solid #F95B34;
+    background: #FA8366;
+    height: 650px;
+    width: 200px;
+    padding: 0 1em;
+    
+    position: absolute;
+    right: 50px;
+    top: 150px;
+}
+
+aside p {
+    font-size: 0.65em;
+    color: #fff;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    
+    padding: 0.8em 1.5em;
+    background: #F36283;
+    height: 2.5em;
+    margin: 0;
+    box-sizing: border-box;
+    width: inherit;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.65em;
+    line-height: 1.8em;
+}
