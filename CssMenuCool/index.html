@@ -8,3 +8,22 @@
         <link rel="stylesheet" href="style.css">
     </head>
 <body>
+<nav role="select">
+    <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Subjects</a></li>
+        <li><a href="#">Portofolio</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Donation</a></li>
+    </ul>
+    
+    <select onchange="if (this.value) window.location.href = this.value;">
+        <option value="#">About Us</option>
+        <option value="#">Subjects</option>
+        <option value="#">Portofolio</option>
+        <option value="#">Contact</option>
+        <option value="#">Donation</option>
+    </select>
+</nav>
+    </body>
+</html>
