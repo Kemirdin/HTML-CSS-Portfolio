@@ -1,1 +1,66 @@
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Open Sans', sans-serif;
+}
+body{
+  background-color:darkcyan;
+  background-image:url(http://stuffpoint.com/google/image/427016-google-hi-tech-google-wallpapers.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul{
+  width: 90%;
+  max-width: 40rem;
+  margin: 1rem auto;
+  display: flex;
+  border-top: 3px solid #d81a91;
+  border-bottom: 1px solid #ccc;
+}
+
+ul li{
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  padding: 1rem 0;
+  color: azure;
+  position: relative;
+  font-weight: 500;
+  transition: all .22s;
+}
+
+ul li:after{
+  width: 100%;
+  height: 2px;
+  background: #d81a91;
+  bottom: -1px;
+  left: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  opacity: 0;
+}
+
+ul li.active{
+  color: lime;
+}
+
+ul li.active:after{
+  opacity: 1;
+}
+
+ul li:hover{
+  background: #f1f1f1;
+  color: #222;
+}
+
+ul:hover li{
+  color: Aqua;
+}
+
+ul:hover li:hover{
+  color: Lime;
+}
