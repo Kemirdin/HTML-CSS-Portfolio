@@ -1,4 +1,3 @@
-
 body {
   background:darkcyan;
 }
@@ -40,3 +39,9 @@ p {
   font-style: italic;
   height: 20px;
   line-height: 20px;
+  margin: 0;
+}
+p em {
+  color: #8dd5ff;
+  font-weight: normal;
+}
