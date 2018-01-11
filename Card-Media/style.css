@@ -1,1 +1,42 @@
 
+body {
+  background:darkcyan;
+}
+.card {
+   box-shadow: 0 8px 6px -6px black;
+  position: relative;
+  width: 800px;
+  margin: 100px auto;
+  background: #fff;
+}
+.card__media {
+  position: relative;
+}
+.card__media img {
+  max-width: 100%;
+}
+h1,
+p {
+  position: absolute;
+  left: 30px;
+  width: 80%;
+  bottom: 50px;
+  color: #fff;
+  line-height: 45px;
+  font-size: 36px;
+}
+h1 span,
+p span {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: rgba(17,17,17,0.8);
+  -webkit-box-shadow: 10px 0 0 rgba(17,17,17,0.8), -10px 0 0 rgba(17,17,17,0.8);
+          box-shadow: 10px 0 0 rgba(17,17,17,0.8), -10px 0 0 rgba(17,17,17,0.8);
+}
+p {
+  bottom: 30px;
+  font-size: 14px;
+  font-family: georgia, serif;
+  font-style: italic;
+  height: 20px;
+  line-height: 20px;
