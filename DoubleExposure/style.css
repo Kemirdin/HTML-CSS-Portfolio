@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #111;
+}
+
+.portrait {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150vh;
+    height: 90vh;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    background-color: #002;
+}
+
+.portrait img {
+    position: absolute;
+    display: block;
+    height: 100%;
+    mix-blend-mode: lighten;
+}
+
+.portrait img:first-child {
+    top: 50%;
+    left: 50%;
+    height: 120%;
+    transform: translate(-48%, -46%);
+    opacity: 0.5;
+}
+
+.portrait img:last-child {
+    top: 50%;
+    left: 50%;
+    height: 150%;
+    transform: translate(-52%, -50%);
+    opacity: 0.5;
+}
