@@ -1,0 +1,109 @@
+/*!
+* Simple CSS3 Image Slideshow
+
+*/
+
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #2b2b2b;
+}
+
+.contant {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding: 1% 0;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+.intro {
+    position: relative;
+    width: 1000%;
+    height: 500px;
+    overflow: hidden;
+    background: #f0f0f0;
+    -webkit-animation: slide 25s infinite alternate ease;
+    animation: slide 25s infinite alternate ease;
+}
+
+.img-contant {
+    float: left;
+    width: 960px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#photo-1 {
+    background-image: url(https://steemit-production-imageproxy-upload.s3.amazonaws.com/DQmdjhZxwyuDUrdpukqKSARdZvgRBLyP9VVJMSFKhLFSUjS);
+}
+
+#photo-2 {
+    background-image: url("https://babelpr.com/wp-content/uploads/2017/07/Frightful-Five.jpg");
+}
+
+#photo-3 {
+    background-image: url("http://www.futuristgerd.com/wp-content/uploads/2016/11/digital-obesity-Gerd-Leonhard-Futurist-Technology-Humanity.010.jpeg");
+}
+
+#photo-4 {
+    background-image: url("http://www.futuristgerd.com/wp-content/uploads/2016/11/digital-obesity-Gerd-Leonhard-Futurist-Technology-Humanity.006.jpeg");
+}
+
+@-webkit-keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    25% {
+        margin-left: -960px;
+    }
+    50% {
+        margin-left: -1920px;
+    }
+    75% {
+        margin-left: -2880px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    25% {
+        margin-left: -960px;
+    }
+    50% {
+        margin-left: -1920px;
+    }
+    75% {
+        margin-left: -2900px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+
+/** Helper **/
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table
+}
+
+.clear:after {
+    clear: both
+}
