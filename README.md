@@ -154,3 +154,182 @@ https://kemirdin.github.io/HTML-CSS-Portfolio/HoverBoxExample/index.html
 37.My youtube Chanel Web
 
 https://kemirdin.github.io/HTML-CSS-Portfolio/MyYoutubeChanal/index.html
+
+38.HTML-CSS-Portfolio/TopBottom/
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/TopBottom/index.html
+
+39.HTML-CSS-Portfolio/StickyHeaderCSSTransition/
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/StickyHeaderCSSTransition/index.html
+
+40.HTML-CSS-Portfolio/HeaderBackground/
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/HeaderBackground/index.html
+
+41.Portfolio Responsive
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/PortfolioResponsive/index.html
+
+42.Css Slider with color 
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/CssSlider/index.html
+
+43. Css Slider with Image 
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/CssSliderWithImage/index.html
+
+44.Social Media Button
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/SocialMediaButton/index.html
+
+45. Simple Button 
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/SimpleButton/index.html
+
+
+46. This is cool wishe to wish a programmer Happy New Year
+
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/IdeEditorCss/index.html
+
+
+47. Css text
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/CssPractice/index.html
+
+48. css grid exercise
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/CssGridExercise/index.html
+
+49. Pure CSS Responsive Flexbox Navigation
+
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/CSSResFlexboxNavi/index.html
+
+50.  Pure CSS Custom Dropdown  
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/CustomDropdown/index.html
+
+
+51.Pure Css Nav Menu Cool
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/CssMenuCool/index.html
+
+
+52.Tamerlane with Clip Path
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/TamerlaneClipPath/index.html
+
+53. CSS  Menu hover effect  
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/MenuHoverEffect/index.html
+
+54.CSS Glass Effect  
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/CSSGlassEffect/index.html
+
+55. Pure CSS, annotated linear carousel  
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/PureCssAnnotatedLineCarou/index.html
+
+
+56.Responsive Content Boxes
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/ResponsiveContentBoxes/index.html
+
+57. Basic Parallax Scrolling with Css
+
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/BasicParallaxScrollingCss/index.html
+
+
+58.Css Menu Hover Effect
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/CssMenuHoverEffect/index.html
+
+59.Css Menu Hover Effect with Css Text Animation 
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/HTML5CssAnimation/index.html
+
+60.Css3 ID Card
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/Css3IDCard/index.html
+
+
+61.  My Cool Footer
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/MyCoolFooter/index.html
+
+
+62. Css Grid With Multiple Image
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/CssGridMultipleImage/index.html
+
+63.Responsive Design HTML/CSS
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/Responsive%20Design%20HTML-CSS/index.html
+
+64.Hackers Photo Gallery with HTML/CSS
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/PhotoWithHtml-Css/index.html
+
+65.Header, 2 columns, footer responsive version
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/Header2ColomnsFooterResVersion/index.html
+
+
+66. Card-Media with Css-Html
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/Card-Media/index.html
+
+67.Shapes With Text
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/ShapesWithText/index.html
+
+68. Flex box and Css grid Layout
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/FlexBoxCssGridLayout/index.html
+
+69.Flex hove Grid
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/FlexMediaGrid/index.html
+
+70.Simple sign file
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/SimpleLable/index.html
+
+71. h1 3d text disign
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/headerDesign/index.html
+
+72. pic galley
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/PicGallary/index.html
+
+73.profile card 
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/ProfileCard/index.html
+
+
+74.Login Form with Floating Label - CSS Only
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/FlotingLable/index.html
+
+75.most popular web design books - CSS Only
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/BookList/index.html
+
+76.most poular web book list with JavaScript 
+
+https://kemirdin.github.io/hyf-javascript2/week1/index.html
+
+
+77.Double Exposure
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/DoubleExposure/index.html
+
+78.Simple Image Slideshow
+
+https://kemirdin.github.io/HTML-CSS-Portfolio/SimpleImageSlideshow/index.html
+
