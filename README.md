@@ -336,3 +336,6 @@ https://kemirdin.github.io/HTML-CSS-Portfolio/SimpleImageSlideshow/index.html
 79.Flex and Grid demo
 
 https://kemirdin.github.io/HTML-CSS-Portfolio/FlexAndGridDemo/index.html
+
+80. Image Hover effect  
+
