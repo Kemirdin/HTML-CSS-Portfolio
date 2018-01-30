@@ -339,7 +339,9 @@ https://kemirdin.github.io/HTML-CSS-Portfolio/FlexAndGridDemo/index.html
 
 80. Image Hover effect  
 
-81.
+https://kemirdin.github.io/HTML-CSS-Portfolio/ImageHoverEffect/index.html
+
+81.text animation with Gijs
 
 https://kemirdin.github.io/HTML-CSS-Portfolio/TextAniGijs/index.html
 
