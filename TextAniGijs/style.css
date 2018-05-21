@@ -1,6 +1,8 @@
 body {
     background-image: url('https://s3-eu-west-1.amazonaws.com/acitymadebypeople/images/Articles/_imagegrid1large/ACMBP-Amsterdam-HackByNature-RichardRigbyPhotography-9906.jpg?mtime=20171011135453');
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .page {
