@@ -348,3 +348,5 @@ https://kemirdin.github.io/HTML-CSS-Portfolio/ImageHoverEffect/index.html
 
 https://kemirdin.github.io/HTML-CSS-Portfolio/TextAniGijs/index.html
 
+##  Lesson 1. https://kemirdin.github.io/50ProjectsIn50Days/Day1_Expanding_Cards/index.html
+
